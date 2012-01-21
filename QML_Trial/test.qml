@@ -2,7 +2,13 @@
 import QtQuick 1.1
 
 Rectangle {
-    width: 100
-    height: 62
-    color: "red"
+    width: 240
+    height: 320
+    color: "skyblue"
+    Rectangle {
+        width: parent.width/2
+        height: parent.height/2
+        anchors.centerIn: parent
+        color: "black"
+    }
 }
